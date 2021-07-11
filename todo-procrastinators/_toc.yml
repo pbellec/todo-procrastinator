@@ -1,0 +1,9 @@
+# Table of contents
+# Learn more at https://jupyterbook.org/customize/toc.html
+
+format: jb-book
+root: intro
+chapters:
+- file: origins_todo
+- file: how_todo_procrastinators
+- file: origins_procrastinators
