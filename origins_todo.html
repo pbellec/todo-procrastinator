@@ -1,0 +1,325 @@
+
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Background &#8212; A to-do list for procrastinators</title>
+    
+  <link href="_static/css/theme.css" rel="stylesheet" />
+  <link href="_static/css/index.c5995385ac14fb8791e8eb36b4908be2.css" rel="stylesheet" />
+
+    
+  <link rel="stylesheet"
+    href="_static/vendor/fontawesome/5.13.0/css/all.min.css">
+  <link rel="preload" as="font" type="font/woff2" crossorigin
+    href="_static/vendor/fontawesome/5.13.0/webfonts/fa-solid-900.woff2">
+  <link rel="preload" as="font" type="font/woff2" crossorigin
+    href="_static/vendor/fontawesome/5.13.0/webfonts/fa-brands-400.woff2">
+
+    
+      
+
+    
+    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    <link rel="stylesheet" href="_static/sphinx-book-theme.acff12b8f9c144ce68a297486a2fa670.css" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="_static/togglebutton.css" />
+    <link rel="stylesheet" type="text/css" href="_static/copybutton.css" />
+    <link rel="stylesheet" type="text/css" href="_static/mystnb.css" />
+    <link rel="stylesheet" type="text/css" href="_static/sphinx-thebe.css" />
+    <link rel="stylesheet" type="text/css" href="_static/panels-main.c949a650a448cc0ae9fd3441c0e17fb0.css" />
+    <link rel="stylesheet" type="text/css" href="_static/panels-variables.06eb56fa6e07937060861dad626602ad.css" />
+    
+  <link rel="preload" as="script" href="_static/js/index.1c5a1a01449ed65a7b51.js">
+
+    <script id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+    <script src="_static/jquery.js"></script>
+    <script src="_static/underscore.js"></script>
+    <script src="_static/doctools.js"></script>
+    <script src="_static/togglebutton.js"></script>
+    <script src="_static/clipboard.min.js"></script>
+    <script src="_static/copybutton.js"></script>
+    <script >var togglebuttonSelector = '.toggle, .admonition.dropdown, .tag_hide_input div.cell_input, .tag_hide-input div.cell_input, .tag_hide_output div.cell_output, .tag_hide-output div.cell_output, .tag_hide_cell.cell, .tag_hide-cell.cell';</script>
+    <script src="_static/sphinx-book-theme.12a9622fbb08dcb3a2a40b2c02b83a57.js"></script>
+    <script async="async" src="https://unpkg.com/thebelab@latest/lib/index.js"></script>
+    <script >
+        const thebe_selector = ".thebe"
+        const thebe_selector_input = "pre"
+        const thebe_selector_output = ".output"
+    </script>
+    <script async="async" src="_static/sphinx-thebe.js"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="How-to" href="how_todo_procrastinators.html" />
+    <link rel="prev" title="Intro" href="intro.html" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="docsearch:language" content="en" />
+    
+  </head>
+  <body data-spy="scroll" data-target="#bd-toc-nav" data-offset="80">
+    
+    <div class="container-fluid" id="banner"></div>
+
+    
+
+    <div class="container-xl">
+      <div class="row">
+          
+<div class="col-12 col-md-3 bd-sidebar site-navigation show" id="site-navigation">
+    
+        <div class="navbar-brand-box">
+    <a class="navbar-brand text-wrap" href="index.html">
+      
+      <img src="_static/logo.png" class="logo" alt="logo">
+      
+      
+      <h1 class="site-logo" id="site-title">A to-do list for procrastinators</h1>
+      
+    </a>
+</div><form class="bd-search d-flex align-items-center" action="search.html" method="get">
+  <i class="icon fas fa-search"></i>
+  <input type="search" class="form-control" name="q" id="search-input" placeholder="Search this book..." aria-label="Search this book..." autocomplete="off" >
+</form><nav class="bd-links" id="bd-docs-nav" aria-label="Main navigation">
+    <div class="bd-toc-item active">
+        <ul class="nav bd-sidenav">
+ <li class="toctree-l1">
+  <a class="reference internal" href="intro.html">
+   Intro
+  </a>
+ </li>
+</ul>
+<ul class="current nav bd-sidenav">
+ <li class="toctree-l1 current active">
+  <a class="current reference internal" href="#">
+   Background
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="how_todo_procrastinators.html">
+   How-to
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="origins_procrastinators.html">
+   On the origins of procrastination
+  </a>
+ </li>
+</ul>
+
+    </div>
+</nav> <!-- To handle the deprecated key -->
+
+<div class="navbar_extra_footer">
+  Powered by <a href="https://jupyterbook.org">Jupyter Book</a>
+</div>
+
+</div>
+
+
+          
+
+
+          
+<main class="col py-md-3 pl-md-4 bd-content overflow-auto" role="main">
+    
+    <div class="topbar container-xl fixed-top">
+    <div class="topbar-contents row">
+        <div class="col-12 col-md-3 bd-topbar-whitespace site-navigation show"></div>
+        <div class="col pl-md-4 topbar-main">
+            
+            <button id="navbar-toggler" class="navbar-toggler ml-0" type="button" data-toggle="collapse"
+                data-toggle="tooltip" data-placement="bottom" data-target=".site-navigation" aria-controls="navbar-menu"
+                aria-expanded="true" aria-label="Toggle navigation" aria-controls="site-navigation"
+                title="Toggle navigation" data-toggle="tooltip" data-placement="left">
+                <i class="fas fa-bars"></i>
+                <i class="fas fa-arrow-left"></i>
+                <i class="fas fa-arrow-up"></i>
+            </button>
+            
+            
+<div class="dropdown-buttons-trigger">
+    <button id="dropdown-buttons-trigger" class="btn btn-secondary topbarbtn" aria-label="Download this page"><i
+            class="fas fa-download"></i></button>
+
+    <div class="dropdown-buttons">
+        <!-- ipynb file if we had a myst markdown file -->
+        
+        <!-- Download raw file -->
+        <a class="dropdown-buttons" href="_sources/origins_todo.md"><button type="button"
+                class="btn btn-secondary topbarbtn" title="Download source file" data-toggle="tooltip"
+                data-placement="left">.md</button></a>
+        <!-- Download PDF via print -->
+        <button type="button" id="download-print" class="btn btn-secondary topbarbtn" title="Print to PDF"
+            onClick="window.print()" data-toggle="tooltip" data-placement="left">.pdf</button>
+    </div>
+</div>
+
+            <!-- Source interaction buttons -->
+
+<div class="dropdown-buttons-trigger">
+    <button id="dropdown-buttons-trigger" class="btn btn-secondary topbarbtn"
+        aria-label="Connect with source repository"><i class="fab fa-github"></i></button>
+    <div class="dropdown-buttons sourcebuttons">
+        <a class="repository-button"
+            href="https://github.com/executablebooks/jupyter-book"><button type="button" class="btn btn-secondary topbarbtn"
+                data-toggle="tooltip" data-placement="left" title="Source repository"><i
+                    class="fab fa-github"></i>repository</button></a>
+        <a class="issues-button"
+            href="https://github.com/executablebooks/jupyter-book/issues/new?title=Issue%20on%20page%20%2Forigins_todo.html&body=Your%20issue%20content%20here."><button
+                type="button" class="btn btn-secondary topbarbtn" data-toggle="tooltip" data-placement="left"
+                title="Open an issue"><i class="fas fa-lightbulb"></i>open issue</button></a>
+        
+    </div>
+</div>
+
+            <!-- Full screen (wrap in <a> to have style consistency -->
+
+<a class="full-screen-button"><button type="button" class="btn btn-secondary topbarbtn" data-toggle="tooltip"
+        data-placement="bottom" onclick="toggleFullScreen()" aria-label="Fullscreen mode"
+        title="Fullscreen mode"><i
+            class="fas fa-expand"></i></button></a>
+
+            <!-- Launch buttons -->
+
+        </div>
+
+        <!-- Table of contents -->
+        <div class="d-none d-md-block col-md-2 bd-toc show">
+            
+            <div class="tocsection onthispage pt-5 pb-3">
+                <i class="fas fa-list"></i> Contents
+            </div>
+            <nav id="bd-toc-nav">
+                <ul class="visible nav section-nav flex-column">
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#natural-born-procrastinator">
+   Natural born procrastinator
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#the-problem-with-procrastination">
+   The problem with procrastination
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#a-system-years-in-the-making">
+   A system years in the making
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#procrastinators-can-be-successful">
+   Procrastinators can be successful
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#procrastination-still-is-bad">
+   Procrastination still is bad
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#structured-procrastination">
+   Structured procrastination
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#life-after-the-little-red-book">
+   Life after the little red book
+  </a>
+ </li>
+</ul>
+
+            </nav>
+        </div>
+    </div>
+</div>
+    <div id="main-content" class="row">
+        <div class="col-12 col-md-9 pl-md-3 pr-md-0">
+        
+              <div>
+                
+  <div class="section" id="background">
+<h1>Background<a class="headerlink" href="#background" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="natural-born-procrastinator">
+<h2>Natural born procrastinator<a class="headerlink" href="#natural-born-procrastinator" title="Permalink to this headline">¶</a></h2>
+<p>I am a procrastinator. More precisely, I have difficulties to start, follow up, and finish tasks, which date from when I was a little kid. When I was 8 years old, my teacher at the time gave me the nickname <strong>turtle</strong>, I guess because I was <em>slow</em> picking up on what she wanted me to do. As a teenager, my sister called me <strong>autistic</strong>, and seemed genuinely concerned about my supposed <strong>inability to navigate the world</strong>. Whatever zoological, clinical or prophetical truth these observations may have held (spoiler: <em>turtle? nope</em> | <em>autistic? to be determined</em> | <em>upcoming doom? I actually turned out OK</em>), I have beyond doubt <strong>struggled my entire life to get done what I am supposed to do</strong>.</p>
+</div>
+<div class="section" id="the-problem-with-procrastination">
+<h2>The problem with procrastination<a class="headerlink" href="#the-problem-with-procrastination" title="Permalink to this headline">¶</a></h2>
+<p>As a student, I got by just fine as a procrastinator. Bills got paid late, side-projects with friends got delayed indefinitely, but I seemed to be able to immerse myself deeply in whatever subject matter I was studying. This way of life proved quite successful in the university world. As a young and busy professional, constant procrastination became highly problematic, as <em>I needed to manage complex projects, and an increasing number of people started depending on me to get many things done</em>. Things only got worst when I got kids. <strong>Procrastination started having dire real-world consequences</strong>.</p>
+</div>
+<div class="section" id="a-system-years-in-the-making">
+<h2>A system years in the making<a class="headerlink" href="#a-system-years-in-the-making" title="Permalink to this headline">¶</a></h2>
+<p>To combat procrastination, I have implemented and experimented with many systems, inspired by various books, articles, friends and youtube videos. There were short bursts of (unsustainable) progress, but overall I would say these early attempts mostly failed. I still picked up many good ideas along the way. So, <em>after years of experiments and trials</em>, I am happy to share my to-do list system that <strong>helps me to get things done</strong>, at least most of the time and more or less in the order of priority I assign to them!</p>
+</div>
+<div class="section" id="procrastinators-can-be-successful">
+<h2>Procrastinators can be successful<a class="headerlink" href="#procrastinators-can-be-successful" title="Permalink to this headline">¶</a></h2>
+<p>The people who I suspect may benefit maximally from this to-do approach are the readers of a <em>little red book</em> on procrastination by some <em>Stanford philosophy professor</em>. The book was very successful, so procrastination must be an issue for many people. An important insight of the little red book is that <strong>many procrastinators actually do do things</strong>, sometimes a lot of things, but <strong>generally not those that they are supposed to do</strong>. In the case of the Stanford professor in philosophy, a self-confessed life-long procrastinator, it is particularly obvious: getting a permanent job at Stanford is quite a professional achievement, so he must have got <em>some</em> things done. I am myself doing remarkably well professionally, especially considering how much time I spend not doing what I am supposed to. The key take away: <strong>Procrastinators can be successful, even wildly so</strong>.</p>
+</div>
+<div class="section" id="procrastination-still-is-bad">
+<h2>Procrastination still is bad<a class="headerlink" href="#procrastination-still-is-bad" title="Permalink to this headline">¶</a></h2>
+<p>The eventual professional achievements of procrastinators should not suggest that procrastination is any less of a problem than it really is. One may even start seeing benefits to procrastination (and there are a few). Still, <em>procrastination undeniably takes its toll</em>, with important emails going unanswered, deadlines unmet with negative consequences for many people, and a <strong>painful guilt of not doing what one is supposed to do</strong>. So no matter what level of professional and personal success one may achieve, <strong>procrastination is (mostly) a bad thing</strong>.</p>
+</div>
+<div class="section" id="structured-procrastination">
+<h2>Structured procrastination<a class="headerlink" href="#structured-procrastination" title="Permalink to this headline">¶</a></h2>
+<p>Inspiration can be drawn in some respects from successful procrastinators. For them, as they are successful, there is a parallel world of projects actually progressing in spite of all the tasks which are not getting done. The little red book offers a singularly brilliant idea: could it be that <strong>successful procrastinators procrastinate by doing something useful</strong>? In other words, in a magic judo move, could one use the strength of procrastination to defeat procrastination itself? This approached was coined by the Stanford university professor as <strong>structured procrastination</strong>, and is the secret sauce behind the <em>to-do list for procrastinators</em>.</p>
+</div>
+<div class="section" id="life-after-the-little-red-book">
+<h2>Life after the little red book<a class="headerlink" href="#life-after-the-little-red-book" title="Permalink to this headline">¶</a></h2>
+<p>I admire very much the little red book and the Stanford University professor who came up with it. The idea of structured procrastination is brilliant. But the book still falls short on two counts. First, the little red book does not offer a full-fledge to-do system for procrastinators, only hints at how it could work. Second, the little red book does not even attempt at digging up the root causes of procrastination. The present text is an attempt at picking up where the little red book left off, and address both of these limitations. So now that you know where the <em>to-do list for procrastinators</em> came from, it is time to explain how it actually works.</p>
+</div>
+</div>
+
+    <script type="text/x-thebe-config">
+    {
+        requestKernel: true,
+        binderOptions: {
+            repo: "binder-examples/jupyter-stacks-datascience",
+            ref: "master",
+        },
+        codeMirrorConfig: {
+            theme: "abcdef",
+            mode: "python"
+        },
+        kernelOptions: {
+            kernelName: "python3",
+            path: "./."
+        },
+        predefinedOutput: true
+    }
+    </script>
+    <script>kernelName = 'python3'</script>
+
+              </div>
+              
+        
+        <div class='prev-next-bottom'>
+            
+    <a class='left-prev' id="prev-link" href="intro.html" title="previous page">Intro</a>
+    <a class='right-next' id="next-link" href="how_todo_procrastinators.html" title="next page">How-to</a>
+
+        </div>
+        
+        </div>
+    </div>
+    <footer class="footer mt-5 mt-md-0">
+    <div class="container">
+      <p>
+        
+          By P. Bellec<br/>
+        
+            &copy; Copyright 2021.<br/>
+      </p>
+    </div>
+  </footer>
+</main>
+
+
+      </div>
+    </div>
+  
+  <script src="_static/js/index.1c5a1a01449ed65a7b51.js"></script>
+
+  
+  </body>
+</html>
