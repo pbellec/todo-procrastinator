@@ -1,6 +1,6 @@
 This is the source code of the [todo-procratinator
 
-This is the source code of the [to-do list for procrastinators](https://pbellec.github.io/todo-procrastinator). 
+This is the source code of the [to-do list for procrastinators](https://pbellec.github.io/todo-procrastinator).
 Shield: [![CC BY 4.0][cc-by-shield]][cc-by]
 
 This work is licensed under a
@@ -13,7 +13,7 @@ This work is licensed under a
 [cc-by-image]: https://i.creativecommons.org/l/by/4.0/88x31.png
 [cc-by-shield]: https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg
 
-This [book](https://courtois-neuromod.github.io/cneuromod_embeddings/) presents a series of experiment to validate the quality of individual dynamic brain parcellations in the Courtois NeuroMod (CNeuroMod) data sample, including a variety of tasks and movies.
+This website presents a to-do list system for procrastinators.
 
 ## Usage
 
@@ -23,22 +23,20 @@ If you'd like to develop on and build the to-do list for procrastinators, you sh
 
 - Clone this repository and run
 - Run `pip install -r requirements.txt` (it is recommended you do this within a virtual environment)
-- Run `pip install -e .` (this will install the cneuromod_embeddings python module)
-- (Recommended) Remove the existing `cneuromod-embeddings/_build/` directory
-- Run `jupyter-book build cneuromod-embeddings/`
+- Run `jb build how_todo-procrastinators/`
 
-A fully-rendered HTML version of the book will be built in `cneuromod-embeddings/_build/html/`.
+A fully-rendered HTML version of the book will be built in `todo-procrastinators/_build/html/`.
 
 ### Hosting the book
 
 The html version of the book is hosted on the `gh-pages` branch of this repo. Navigate to your local build and run,
-- `ghp-import -n -p -f book/_build/html`
+- `ghp-import -n -p -f todo-procrastinators/_build/html`
 
 This will automatically push your build to the `gh-pages` branch. More information on this hosting process can be found [here](https://jupyterbook.org/publish/gh-pages.html#manually-host-your-book-with-github-pages).
 
 ## Contributors
 
-We welcome and recognize all contributions. You can see a list of current contributors in the [contributors tab](https://github.com/pbellec/cneuromod_embeddings/graphs/contributors).
+This text was put together by P. Bellec.
 
 ## Credits
 
