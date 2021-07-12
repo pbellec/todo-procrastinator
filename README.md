@@ -5,7 +5,8 @@ Shield: [![CC BY 4.0][cc-by-shield]][cc-by]
 
 This work is licensed under a
 [Creative Commons Attribution 4.0 International License][cc-by], except for images, see below.
- * file `images/shutterstock_1427368160.eps` and `todo-procrastinators/logo.png` was purchased with a limited license (unlimited web distribution) by P. Bellec from [shutterstock ID 1427368160](https://shutterstock.com/image-vector/procrastinating-woman-sitting-office-her-legs-1427368160)
+ * file `images/shutterstock_1427368160.eps` and `todo-procrastinator/logo.png` was purchased with a limited license (unlimited web distribution) by P. Bellec from [shutterstock ID 1427368160](https://shutterstock.com/image-vector/procrastinating-woman-sitting-office-her-legs-1427368160)
+ * file `todo-procrastinator/celeste.jpg` is a Fan-art by [GomiGomiPomi](https://gomigomipomi.tumblr.com) reproduced with permission from the author (_Usage of my drawings is allowed as long as proper credits are given and it's not for commercial purposes_).
 
 [![CC BY 4.0][cc-by-image]][cc-by]
 
