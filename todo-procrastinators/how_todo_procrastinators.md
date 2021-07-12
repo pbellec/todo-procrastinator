@@ -128,8 +128,27 @@ Third, you do not have to plan a given category in details. You can start with a
  ```
 
 ## Trouble shooting
-  * `I find this system awfully complicated, can you explain it again?` Make a short to-do list, and when you have some time to work, pick a single item for what you are supposed to do `Now`. All the rest really is bells and whistles.
-  * `I have not looked at my executive to-do list for several days.` Maybe the list is too long and scary. Consider dropping one category. May I suggest dropping `Emails`? `Emails` can generally go under `Fast`. You can also limit the number of items per category to 1 or 2.
-  * `Some items never get done in my todo list.` You may want to remove the problematic task, and break it into subtasks. You may also want to consider whether this task actually needs to get done at all, or - slightly different angle - whether you are actually ready not to do it and face the consequences. I will discuss this internal dialogue a bit in the {ref}`third section <origins>`.
-  * `My stack to-do list is growing endlessly.` You may want to transfer some items to other expansive lists. You may also want to come to term that some of these tasks will not get done, and simply remove them. Do not feel too guilty: for some of these tasks someone will come back with a reminder. And you may then find the courage to deal with them.
-  * `One of my list is so long I don't want to look at it.` Split that list into several lists. I tend to be an horizontal thinker: I would rather see everything in one giant list in order to set my priorities (but **not** to decide what I have to do now - then I would get anxious). But some people are more vertical: they like better having many shorter lists. Experiment and find what works best for you.
+```{admonition} I find this system awfully complicated, can you explain it again?
+:class: note
+Make a short to-do list, and when you have some time to work, pick a single item for what you are supposed to do `Now`. All the rest really is bells and whistles.
+```
+
+```{admonition} I have not looked at my executive to-do list for several days.
+:class: note
+Maybe the list is too long and scary. Consider dropping one category. May I suggest dropping `Emails`? `Emails` can generally go under `Fast`. You can also limit the number of items per category to 1 or 2.
+```
+
+```{admonition} Some items never get done in my to-do list.
+:class: note
+You may want to remove the problematic task, and break it into subtasks. You may also want to consider whether this task actually needs to get done at all, or - slightly different angle - whether you are actually ready not to do it and face the consequences. I will discuss this internal dialogue a bit in the {ref}`third section <origins>`.
+```
+
+```{admonition} My stack to-do list is growing endlessly.
+:class: note
+You may want to transfer some items to other expansive lists. You may also want to come to term that some of these tasks will not get done, and simply remove them. Do not feel too guilty: for some of these tasks someone will come back with a reminder. And you may then find the courage to deal with them.
+```
+
+```{admonition} One of my list is so long I don't want to look at it.
+:class: note
+Split that list into several lists. I tend to be an horizontal thinker: I would rather see everything in one giant list in order to set my priorities (but **not** to decide what I have to do now - then I would get anxious). But some people are more vertical: they like better having many shorter lists. Experiment and find what works best for you.
+```
