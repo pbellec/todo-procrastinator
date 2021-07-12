@@ -37,7 +37,7 @@ This will automatically push your build to the `gh-pages` branch. More informati
 
 ## Contributors
 
-This text was put together by P. Bellec.
+This text was put together by P. Bellec, drawing inspiration from many places. The first inspiration in the book "_The Art of Procrastination: A Guide to Effective Dawdling, Lollygagging and Postponing_" by Professor Emeritus John Perry from Stanford University. [Printed copies](https://www.amazon.com/Art-Procrastination-Effective-Lollygagging-Postponing/dp/0761171673/ref=sr_1_1?s=books&ie=UTF8&qid=1344889395&sr=1-1) of this excellent book are available for sales, and a short version is available on the author's [website](http://www.structuredprocrastination.com/). The second inspiration is the videogame [Celeste](https://en.wikipedia.org/wiki/Celeste_(video_game)).
 
 ## Credits
 
