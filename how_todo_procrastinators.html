@@ -85,7 +85,7 @@
         <ul class="nav bd-sidenav">
  <li class="toctree-l1">
   <a class="reference internal" href="intro.html">
-   Intro
+   Introduction
   </a>
  </li>
 </ul>
@@ -144,7 +144,10 @@
 
     <div class="dropdown-buttons">
         <!-- ipynb file if we had a myst markdown file -->
-        
+        <a class="dropdown-buttons"
+            href="_sources/how_todo_procrastinators.ipynb"><button type="button"
+                class="btn btn-secondary topbarbtn" title="Download notebook file" data-toggle="tooltip"
+                data-placement="left">.ipynb</button></a>
         <!-- Download raw file -->
         <a class="dropdown-buttons" href="_sources/how_todo_procrastinators.md"><button type="button"
                 class="btn btn-secondary topbarbtn" title="Download source file" data-toggle="tooltip"
@@ -181,6 +184,23 @@
             class="fas fa-expand"></i></button></a>
 
             <!-- Launch buttons -->
+
+<div class="dropdown-buttons-trigger">
+    <button id="dropdown-buttons-trigger" class="btn btn-secondary topbarbtn"
+        aria-label="Launch interactive content"><i class="fas fa-rocket"></i></button>
+    <div class="dropdown-buttons">
+        
+        <a class="binder-button" href="https://mybinder.org/v2/gh/executablebooks/jupyter-book/master?urlpath=tree/docs/how_todo_procrastinators.md"><button type="button"
+                class="btn btn-secondary topbarbtn" title="Launch Binder" data-toggle="tooltip"
+                data-placement="left"><img class="binder-button-logo"
+                    src="_static/images/logo_binder.svg"
+                    alt="Interact on binder">Binder</button></a>
+        
+        
+        
+        
+    </div>
+</div>
 
         </div>
 
@@ -271,7 +291,7 @@
               <div>
                 
   <div class="section" id="how-to">
-<h1>How-to<a class="headerlink" href="#how-to" title="Permalink to this headline">¶</a></h1>
+<span id="id1"></span><h1>How-to<a class="headerlink" href="#how-to" title="Permalink to this headline">¶</a></h1>
 <div class="section" id="software">
 <h2>Software<a class="headerlink" href="#software" title="Permalink to this headline">¶</a></h2>
 <p>Let’s start with a bit of logistics. The to-do list for procrastinators does not rely on a particular software, or website. It can probably be implemented with any solution you are already familiar with. If you have already found a to-do list software you like, I would encourage you to stick with it. I am personally implementing the to-do list with a simple text editor and a format called markdown to keep track of headers, and links, etc. Markdown gets rendered as a web page mostly for aesthetics. Sometimes I will explain how a particular aspect of the to-do list is implemented in my text-based system, but hopefully you can adapt this aspect easily in whatever software you are using.</p>
@@ -285,11 +305,14 @@
 <span class="n">todo_stack</span><span class="o">.</span><span class="n">md</span>
 </pre></div>
 </div>
-<p>It is absolutely necessary that you are able to access your various to-do lists independently of each other, adopting a divide-and-conquer strategy. Anyway, you will most commonly access a single to-do list, the most important one: the <code class="docutils literal notranslate"><span class="pre">executive</span></code> to-do list.</p>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p>It is absolutely necessary that you are able to access your various to-do lists independently of each other, adopting a divide-and-conquer strategy.</p>
+</div>
 </div>
 <div class="section" id="the-executive-to-do-list">
 <h2>The executive to-do list<a class="headerlink" href="#the-executive-to-do-list" title="Permalink to this headline">¶</a></h2>
-<p>The <code class="docutils literal notranslate"><span class="pre">executive</span></code> to-do list contains the items that require immediate action. In a way, that is the only to-do list you really need to care about. The <code class="docutils literal notranslate"><span class="pre">executive</span></code> to-do list is by design short, and features only a fixed number of set categories. The category themselves only contain a limited number of tasks. Here is an example of an executive to-do list:</p>
+<p>You will most commonly access a single to-do list, called the <code class="docutils literal notranslate"><span class="pre">executive</span></code> to-do list. This to-do list contains the items that require immediate action. In a way, that is the only to-do list you really need to care about. The <code class="docutils literal notranslate"><span class="pre">executive</span></code> to-do list is by design short, and features only a fixed number of set categories. The category themselves only contain a limited number of tasks. Here is an example of an executive to-do list:</p>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="c1"># Executive to-do list - an example</span>
 
 <span class="c1">## Now (max 1)</span>
@@ -329,22 +352,30 @@
 <li><p><code class="docutils literal notranslate"><span class="pre">Urgent</span></code> is a category for tasks with a deadline in the near future or, most often, in the past. For these tasks, it is useful to indicate the deadline in the task description.</p></li>
 <li><p><code class="docutils literal notranslate"><span class="pre">Important</span></code> are for things which really matter to you. There is typically little outside pressure to get these tasks done, but they should be treated with similar priority, or even higher, than tasks in the urgent category. That’s either because you have an healthy dose of selfishness, or because you realize that the <code class="docutils literal notranslate"><span class="pre">Important</span></code> items are what brings you joy, and will fill you with the necessary emotional fuel to deal with the other task categories in your list.</p></li>
 </ul>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
 <p>You may notice that there is no category for tasks which are both long, not urgent, and unimportant. I suggest to simply wait for those to become urgent before adding them to your <code class="docutils literal notranslate"><span class="pre">executive</span> <span class="pre">to-do</span> <span class="pre">list</span></code>, or avoid doing those tasks altogether. If you really think it is necessary for you to schedule this type of tasks, you may want to add a category <code class="docutils literal notranslate"><span class="pre">Misc</span></code>. I would then suggest having only one (1) item in that list.</p>
+</div>
 </div>
 <div class="section" id="why-and-how-the-executive-to-do-list-works">
 <h2>Why and how the <code class="docutils literal notranslate"><span class="pre">executive</span></code> to-do list works<a class="headerlink" href="#why-and-how-the-executive-to-do-list-works" title="Permalink to this headline">¶</a></h2>
 <p>Say you start your day, and you pick up a task in your <code class="docutils literal notranslate"><span class="pre">executive</span></code> to-do list. Right after choosing the task, you start to procrastinate and do something else. Because <em>you are a procrastinator</em>, after all. Yet, you have just been primed by reading your executive to-do list, which is filled with less anxiety-provoking, less annoying or more fun tasks than your <code class="docutils literal notranslate"><span class="pre">Now</span></code> task. Part of you realize the values of getting those tasks done. There is a solid chance that you will procrastinate using another item from your <code class="docutils literal notranslate"><span class="pre">executive</span></code> to-do list. Otherwise, you may even actually start working on your <code class="docutils literal notranslate"><span class="pre">Now</span></code> task. In all these cases, you win: <strong>you are actually knocking down an item off your to-do list</strong>.</p>
-<p>Having four (4) main categories in the <code class="docutils literal notranslate"><span class="pre">executive</span></code> to-do list means that you have at all times a nice spectrum of tasks to procrastinate from, with a range of time commitment, boredom, anxiety levels and topics. Just sit back, relax and procrastinate: the <code class="docutils literal notranslate"><span class="pre">executive</span></code> to-do list has your back.</p>
-<p>Having only three (3) items per category means that you can go through the entire list in a few minutes. Checking your <code class="docutils literal notranslate"><span class="pre">executive</span></code> to-do list will feel like an easy task that you are unlikely to procrastinate from.</p>
-<p>With the <code class="docutils literal notranslate"><span class="pre">executive</span></code> to-do list in place, hopefully you will procrastinate productively. It should now be evident that the tasks in the <code class="docutils literal notranslate"><span class="pre">executive</span></code> to-do list need to be selected with care. That selection process is where our other to-do lists come in the picture.</p>
+<div class="tip admonition">
+<p class="admonition-title">Number and size of categories</p>
+<p>Having four (4) main categories in the <code class="docutils literal notranslate"><span class="pre">executive</span></code> to-do list means that you have at all times a nice spectrum of tasks to procrastinate from, with a range of time commitment, boredom, anxiety levels and topics. Having only three (3) items per category means that you can go through the entire list in a few minutes. Checking your <code class="docutils literal notranslate"><span class="pre">executive</span></code> to-do list will feel like an easy task that you are unlikely to procrastinate from. If you find the <code class="docutils literal notranslate"><span class="pre">executive</span></code> too short or too long, you may want to adapt the numbers of categories as well as the number of items per category to your needs.</p>
+</div>
 </div>
 <div class="section" id="other-to-do-lists">
 <h2>Other to-do lists<a class="headerlink" href="#other-to-do-lists" title="Permalink to this headline">¶</a></h2>
-<p>The other to-do lists are expansive, which means they contain an unlimited number of categories, and an unlimited number of items per category. What those expansive to-do lists are and what categories they feature really do depend on what you do in life, and your interests. Maybe you are really into gardening, and you have lots of tasks related to your garden, in which case you may want to have a <code class="docutils literal notranslate"><span class="pre">todo_garden.md</span></code> list dedicated to garden activity planning, with related categories (<code class="docutils literal notranslate"><span class="pre">orchard</span></code>, <code class="docutils literal notranslate"><span class="pre">vegetables</span></code>, <code class="docutils literal notranslate"><span class="pre">flowers</span></code>, etc). I personally only use two lists:</p>
+<p>It should now be evident that the tasks in the <code class="docutils literal notranslate"><span class="pre">executive</span></code> to-do list need to be selected with care. That selection process is where our other to-do lists come in the picture. The other to-do lists are expansive, which means they contain an unlimited number of categories, and an unlimited number of items per category. What those expansive to-do lists are and what categories they feature really do depend on what you do in life, and your interests. Maybe you are really into gardening, and you have lots of tasks related to your garden, in which case you may want to have a <code class="docutils literal notranslate"><span class="pre">todo_garden.md</span></code> list dedicated to garden activity planning, with related categories (<code class="docutils literal notranslate"><span class="pre">orchard</span></code>, <code class="docutils literal notranslate"><span class="pre">vegetables</span></code>, <code class="docutils literal notranslate"><span class="pre">flowers</span></code>, etc). I personally only use two lists:</p>
 <ul class="simple">
 <li><p><code class="docutils literal notranslate"><span class="pre">todo_work.md</span></code>: is for the various projects I deal with at work. The categories can be related to the organization of a course (I do teach), or running a series of scientific experiments (I do research), or writing an article (I write occasionally). I will give an example of a category latter.</p></li>
-<li><p><code class="docutils literal notranslate"><span class="pre">todo_perso.md</span></code>: is for my personal projects, outside of work. I tend to avoid using to-do lists for my personal life, so that list is pretty short. More precisely, I try to keep my personal life simple and spontaneous enough that I do not need a to-do list for most things. But there are of course exceptions. Filling out taxes, dealing with my immigration paper work or following with house maintenance are all worthy of a section in my personal to-do list.</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">todo_perso.md</span></code>: is for my personal projects, outside of work.</p></li>
 </ul>
+<div class="tip admonition">
+<p class="admonition-title">To-do list and personal projects</p>
+<p>I tend to avoid using to-do lists for my personal life, so that list is pretty short. More precisely, I try to keep my personal life simple and spontaneous enough that I do not need a to-do list for most things. But there are of course exceptions. Filling out taxes, dealing with my immigration paper work or following up with house maintenance are all worthy of a section in a to-do list.</p>
+</div>
 </div>
 <div class="section" id="the-stack-list">
 <h2>The stack list<a class="headerlink" href="#the-stack-list" title="Permalink to this headline">¶</a></h2>
@@ -364,20 +395,23 @@
 </pre></div>
 </div>
 <p>A couple of notes here. First, you will notice that each task is indicated by a bullet (or <code class="docutils literal notranslate"><span class="pre">*</span></code> in markdown). The number of spaces before the <code class="docutils literal notranslate"><span class="pre">*</span></code>, the so-called indentation, indicates the level of the task. So <code class="docutils literal notranslate"><span class="pre">draft</span> <span class="pre">first</span> <span class="pre">section</span></code> is a main task, while <code class="docutils literal notranslate"><span class="pre">paragraph</span> <span class="pre">on</span> <span class="pre">problems</span> <span class="pre">with</span> <span class="pre">procrastination</span></code> is a subtask of <code class="docutils literal notranslate"><span class="pre">draft</span> <span class="pre">first</span> <span class="pre">section</span></code>.</p>
-<p>Second, it is <em>very important</em> that you break down tasks into very small subtasks. If a big task ever makes it to your <code class="docutils literal notranslate"><span class="pre">executive</span> <span class="pre">to-do</span> <span class="pre">list</span></code>, it will clog the list, possibly for weeks, and will make you unable to adapt to on-going demands or your mood.</p>
+<p>Second, it is <em>very important</em> that you break down tasks into very small subtasks. If a big task ever makes it to your <code class="docutils literal notranslate"><span class="pre">executive</span></code> to-do list, it will clog the list, possibly for weeks, and will make you unable to adapt to on-going demands or your mood.</p>
 <p>Third, you do not have to plan a given category in details. You can start with a few generic tasks, and add subtasks while you are working on a project. You can also revisit a task that was too big or poorly designed to change it - for example breaking it into subtasks.</p>
 </div>
 <div class="section" id="feeding-the-executive-monster">
 <h2>Feeding the <code class="docutils literal notranslate"><span class="pre">executive</span></code> monster<a class="headerlink" href="#feeding-the-executive-monster" title="Permalink to this headline">¶</a></h2>
 <p>There is no special time for you to add an item to your to-do list. Whenever you are low on tasks, something urgent comes up, and you have a sudden urge to work on a particular project, just visit one of your expansive to-do list, select an item, copy it to the executive <code class="docutils literal notranslate"><span class="pre">to-do</span> <span class="pre">list</span></code> and “voilà”! Of course, if your to-do list is full, you will <em>have</em> to get something done on the list before adding any new item. Procrastinating with tasks outside of the <code class="docutils literal notranslate"><span class="pre">executive</span></code> to-do list should be seen as off-limits.</p>
-<p>You should also never expect to empty your executive to-do list. Tasks will keep getting added as soon as there is space. This actually should bring you comfort: you will never fail again to clear up your to-do list - it’s never expected to happen - and you will not have to plan you daily schedule in details - just follow your fancy in the <code class="docutils literal notranslate"><span class="pre">executive</span></code> to-do list.</p>
+<div class="tip admonition">
+<p class="admonition-title">A never-ending to-do cycle</p>
+<p>You should never expect to empty your executive to-do list. Tasks will keep getting added as soon as there is space. This actually should bring you comfort: you will never fail again to clear up your to-do list - it’s never expected to happen - and you will not have to plan your daily schedule in details - just follow your fancy in the <code class="docutils literal notranslate"><span class="pre">executive</span></code> to-do list.</p>
+</div>
 </div>
 <div class="section" id="trouble-shooting">
 <h2>Trouble shooting<a class="headerlink" href="#trouble-shooting" title="Permalink to this headline">¶</a></h2>
 <ul class="simple">
 <li><p><code class="docutils literal notranslate"><span class="pre">I</span> <span class="pre">find</span> <span class="pre">this</span> <span class="pre">system</span> <span class="pre">awfully</span> <span class="pre">complicated,</span> <span class="pre">can</span> <span class="pre">you</span> <span class="pre">explain</span> <span class="pre">it</span> <span class="pre">again?</span></code> Make a short to-do list, and when you have some time to work, pick a single item for what you are supposed to do <code class="docutils literal notranslate"><span class="pre">Now</span></code>. All the rest really is bells and whistles.</p></li>
 <li><p><code class="docutils literal notranslate"><span class="pre">I</span> <span class="pre">have</span> <span class="pre">not</span> <span class="pre">looked</span> <span class="pre">at</span> <span class="pre">my</span> <span class="pre">executive</span> <span class="pre">to-do</span> <span class="pre">list</span> <span class="pre">for</span> <span class="pre">several</span> <span class="pre">days.</span></code> Maybe the list is too long and scary. Consider dropping one category. May I suggest dropping <code class="docutils literal notranslate"><span class="pre">Emails</span></code>? <code class="docutils literal notranslate"><span class="pre">Emails</span></code> can generally go under <code class="docutils literal notranslate"><span class="pre">Fast</span></code>. You can also limit the number of items per category to 1 or 2.</p></li>
-<li><p><code class="docutils literal notranslate"><span class="pre">Some</span> <span class="pre">items</span> <span class="pre">never</span> <span class="pre">get</span> <span class="pre">done</span> <span class="pre">in</span> <span class="pre">my</span> <span class="pre">todo</span> <span class="pre">list.</span></code> You may want to remove the problematic task, and break it into subtasks. You may also want to consider whether this task actually needs to get done at all, or - slightly different angle - whether you are actually ready not to do it and face the consequences. I will discuss this internal dialogue a bit in the third section.</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">Some</span> <span class="pre">items</span> <span class="pre">never</span> <span class="pre">get</span> <span class="pre">done</span> <span class="pre">in</span> <span class="pre">my</span> <span class="pre">todo</span> <span class="pre">list.</span></code> You may want to remove the problematic task, and break it into subtasks. You may also want to consider whether this task actually needs to get done at all, or - slightly different angle - whether you are actually ready not to do it and face the consequences. I will discuss this internal dialogue a bit in the <a class="reference internal" href="origins_procrastinators.html#origins"><span class="std std-ref">third section</span></a>.</p></li>
 <li><p><code class="docutils literal notranslate"><span class="pre">My</span> <span class="pre">stack</span> <span class="pre">to-do</span> <span class="pre">list</span> <span class="pre">is</span> <span class="pre">growing</span> <span class="pre">endlessly.</span></code> You may want to transfer some items to other expansive lists. You may also want to come to term that some of these tasks will not get done, and simply remove them. Do not feel too guilty: for some of these tasks someone will come back with a reminder. And you may then find the courage to deal with them.</p></li>
 <li><p><code class="docutils literal notranslate"><span class="pre">One</span> <span class="pre">of</span> <span class="pre">my</span> <span class="pre">list</span> <span class="pre">is</span> <span class="pre">so</span> <span class="pre">long</span> <span class="pre">I</span> <span class="pre">don't</span> <span class="pre">want</span> <span class="pre">to</span> <span class="pre">look</span> <span class="pre">at</span> <span class="pre">it.</span></code> Split that list into several lists. I tend to be an horizontal thinker: I would rather see everything in one giant list in order to set my priorities (but <strong>not</strong> to decide what I have to do now - then I would get anxious). But some people are more vertical: they like better having many shorter lists. Experiment and find what works best for you.</p></li>
 </ul>
