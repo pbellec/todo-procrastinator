@@ -3,7 +3,7 @@
 This is the source code of the [to-do list for procrastinators](https://pbellec.github.io/todo-procrastinator). This work is licensed under a
 [Creative Commons Attribution 4.0 International License][cc-by], except for images, see below.
  * file `images/shutterstock_1427368160.eps` and `todo-procrastinator/logo.png` was purchased with a limited license (unlimited web distribution) by P. Bellec from [shutterstock ID 1427368160](https://shutterstock.com/image-vector/procrastinating-woman-sitting-office-her-legs-1427368160)
- * file `todo-procrastinator/celeste.jpg` is a Fan-art by [GomiGomiPomi](https://gomigomipomi.tumblr.com) reproduced with permission from the author (_Usage of my drawings is allowed as long as proper credits are given and it's not for commercial purposes_).
+ * file `todo-procrastinators/celeste.jpg` is a Fan-art by [GomiGomiPomi](https://gomigomipomi.tumblr.com) reproduced with permission from the author (_Usage of my drawings is allowed as long as proper credits are given and it's not for commercial purposes_).
 
 [cc-by]: http://creativecommons.org/licenses/by/4.0/
 [cc-by-shield]: https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg
