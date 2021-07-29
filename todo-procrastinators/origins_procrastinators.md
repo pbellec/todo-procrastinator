@@ -69,7 +69,7 @@ Sometimes to really get something done on your to-do list, you will need to step
 ```
 
 ```{warning}
-This next one is not really a trick to develop a relationship with your `spirit animal`, but rather an observation and possibly a warning. I have noticed a few people I know who seem to have fused with their `spirit animal`. They are very impulsive, say no a lot and need to act immediately when they have something to do. They are quite effective, but also ruthless. I don't think it is something you can decide to do, and even if it is I would not suggest doing it. Spirit animals are rough, and our fellow humans deserve more kindness. Unless your `spirit animal` is something like a _fluffy bunny_, I would rather be the one in command, at least most of the times. You can still consult with your `spirit animal`, just not fully fuse with them.
+This next one is not really a trick to develop a relationship with your `spirit animal`, but rather an observation and possibly a warning. I have noticed a few people I know who seem to have fused with their `spirit animal`. They have no trouble saying "no" and need to act immediately when they have something to do. They are quite effective, but also sometimes ruffle feathers around them. I don't think it is something you can decide to do, and I am not sure fully fusing with your `spirit animal` is necessarily desirable, unless it is something like a _fluffy bunny_. I would rather establish a friendly connection with my `spirit animal` rather than fully fuse with them.
 ```
 
 ## Enjoy!
