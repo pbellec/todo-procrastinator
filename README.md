@@ -1,4 +1,4 @@
-[![CC BY 4.0][cc-by-shield]][cc-by] 
+[![CC BY 4.0][cc-by-shield]][cc-by]
 
 This is the source code of the [to-do list for procrastinators](https://pbellec.github.io/todo-procrastinator). This work is licensed under a
 [Creative Commons Attribution 4.0 International License][cc-by], except for images, see below.
@@ -16,14 +16,14 @@ If you'd like to develop on and build the to-do list for procrastinators, you sh
 
 - Clone this repository and run
 - Run `pip install -r requirements.txt` (it is recommended you do this within a virtual environment)
-- Run `jb build how_todo-procrastinators/`
+- Run `jb build how_todo-procrastinator/`
 
-A fully-rendered HTML version of the book will be built in `todo-procrastinators/_build/html/`.
+A fully-rendered HTML version of the book will be built in `todo-procrastinator/_build/html/`.
 
 ### Hosting the book
 
 The html version of the book is hosted on the `gh-pages` branch of this repo. Navigate to your local build and run,
-- `ghp-import -n -p -f todo-procrastinators/_build/html`
+- `ghp-import -n -p -f todo-procrastinator/_build/html`
 
 This will automatically push your build to the `gh-pages` branch. More information on this hosting process can be found [here](https://jupyterbook.org/publish/gh-pages.html#manually-host-your-book-with-github-pages).
 
