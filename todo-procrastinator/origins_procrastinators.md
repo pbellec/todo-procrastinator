@@ -33,12 +33,12 @@ In the past couple of years I have grown to know my `spirit animal` quite a bit.
 
 So, as I mentioned in the {ref}`introduction <intro>`, that little theory of mine on `spirit animals` and procrastination is half baked. I do not pretend that the relationship between people and their `spirit animals` is the main cause, or even a cause, of all procrastination. I am sure there are people out there whose executive functions are simply impaired, preventing them to go through the steps necessary to complete tasks. But in my case, and several I have observed around me, procrastination clearly reflects a lack of communication between themselves and their `spirit animals`. Let me give you some personal examples.
 
-```{admonition} Example 1: _Fuck, I procrastinated the party_
+```{admonition} Example 1: _F***, I procrastinated the party_
 :class: note
 A friend of mine wants me to go to a bar for drinks with his friends. I reluctantly say **yes**. My spirit animal does not like groups, and I don't really know the friends of that friend. So my `spirit animal` says **no**. But they don't talk, and I don't hear them, or I choose to ignore them. When time comes to go to the party, my `spirit animal` decides to stay home - after all, they never committed to this. Stuck in the same body as my `spirit animal`, I delay the time to go up until it is too late to go.
 ```
 
-```{admonition} Example 2: _Fuck, I procrastinated the email_
+```{admonition} Example 2: _F***, I procrastinated the email_
 :class: note
 I receive an email requesting to give a seminar as part of a course. Teaching is my duty, and the person making the request is a friend, so I want to say **yes**. But I am not familiar with the subject, and the period of the seminar is not convenient. My `spirit animal` is having none of it, they say **no**. So I am stuck between my "yes" and my `spirit animal`'s no. I do not respond to the email. I instead put it on my to-do list, to "_think about it_". That item will never get done, but will stay on my to-do list for months, up to the point I either receive several reminders - in which case I eventually respond yes and wait to the very last minute to prepare - or so much time has passed that it is more embarrassing to respond than not to respond. I then finally remove the item from my to-do list.
 ```
