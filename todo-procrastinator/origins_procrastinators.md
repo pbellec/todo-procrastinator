@@ -74,9 +74,9 @@ This next one is not really a trick to develop a relationship with your `spirit 
 
 ## You can do this
 
-Over time, if you develop a bond with your spirit animal, you may get quite good at understanding them, and you two may become quite close. This may help you make decisions in a much more plain, deliberate way. And maybe this will help you not to procrastinate, and even bring much bigger changes too.
+Let's finish on one last massive spoiler on the game Celeste. The main developer of the game, [Madeline Thorson](https://en.wikipedia.org/wiki/Maddy_Thorson), is a transgender woman and the story behind mount Celeste, although of universal appeal, was born out of the journey of her transition.
 
-Actually, let's finish on one last massive spoiler on the game Celeste. The main developer of the game, [Madeline Thorson](https://en.wikipedia.org/wiki/Maddy_Thorson), is a transgender woman and the story behind mount Celeste, although of universal appeal, was born out of the journey of her transition.
+Over time, if you develop a bond with your spirit animal, you may get quite good at understanding them, and you two may become quite close. This may help you make decisions in a much more plain, deliberate way. And maybe this will help you not to procrastinate, and even bring much bigger changes too.
 
 No matter what your spirit animal is, and whatever is the mountain that you wish to climb, remember: **you can do this**.
 
