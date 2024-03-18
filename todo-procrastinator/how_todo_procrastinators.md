@@ -128,7 +128,7 @@ You should never expect to empty your executive to-do list. Tasks will keep gett
 ```
 
 ## Scheduling
-The question of scheduling is often tied to todo lists. Specifically, it is common practice for many people to block time out of their schedules to work on a specific todo task. Which, for a hardcore procrastinator, sounds more like a dark joke than anything. Committing to do a specific thing at a specific time is essentially guarantying that thing done will not get done (possibly ever, due to procrastination trauma).
+The question of scheduling is often tied to todo lists. Specifically, it is common practice for many people to block time out of their schedules to work on a specific todo task. Which, for a hardcore procrastinator, sounds more like a dark joke than anything. Committing to do a specific thing at a specific time is essentially guarantying that thing will not get done (possibly ever, due to procrastination trauma).
 
 The very act of planning and inserting tasks in your schedule can be an emotional roller coaster and feel very overwhelming. Chances are: you'll procrastinate planning the schedule, never mind achieving whatever sorry task made it in your schedule simply to be ignored.
 
