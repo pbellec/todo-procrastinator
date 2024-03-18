@@ -33,12 +33,12 @@ In the past couple of years I have grown to know my `spirit animal` quite a bit.
 
 So, as I mentioned in the {ref}`introduction <intro>`, that little theory of mine on `spirit animals` and procrastination is half baked. I do not pretend that the relationship between people and their `spirit animals` is the main cause, or even a cause, of all procrastination. I am sure there are people out there whose executive functions are simply impaired, preventing them to go through the steps necessary to complete tasks. But in my case, and several I have observed around me, procrastination clearly reflects a lack of communication between themselves and their `spirit animals`. Let me give you some personal examples.
 
-```{admonition} Example 1: _Fuck, I procrastinated the party_
+```{admonition} Example 1: _F***, I procrastinated the party_
 :class: note
 A friend of mine wants me to go to a bar for drinks with his friends. I reluctantly say **yes**. My spirit animal does not like groups, and I don't really know the friends of that friend. So my `spirit animal` says **no**. But they don't talk, and I don't hear them, or I choose to ignore them. When time comes to go to the party, my `spirit animal` decides to stay home - after all, they never committed to this. Stuck in the same body as my `spirit animal`, I delay the time to go up until it is too late to go.
 ```
 
-```{admonition} Example 2: _Fuck, I procrastinated the email_
+```{admonition} Example 2: _F***, I procrastinated the email_
 :class: note
 I receive an email requesting to give a seminar as part of a course. Teaching is my duty, and the person making the request is a friend, so I want to say **yes**. But I am not familiar with the subject, and the period of the seminar is not convenient. My `spirit animal` is having none of it, they say **no**. So I am stuck between my "yes" and my `spirit animal`'s no. I do not respond to the email. I instead put it on my to-do list, to "_think about it_". That item will never get done, but will stay on my to-do list for months, up to the point I either receive several reminders - in which case I eventually respond yes and wait to the very last minute to prepare - or so much time has passed that it is more embarrassing to respond than not to respond. I then finally remove the item from my to-do list.
 ```
@@ -72,8 +72,12 @@ Sometimes to really get something done on your to-do list, you will need to step
 This next one is not really a trick to develop a relationship with your `spirit animal`, but rather an observation and possibly a warning. I have noticed a few people I know who seem to have fused with their `spirit animal`. They have no trouble saying "no" and need to act immediately when they have something to do. They are quite effective, but also sometimes ruffle feathers around them. I don't think it is something you can decide to do, and I am not sure fully fusing with your `spirit animal` is necessarily desirable, unless it is something like a _fluffy bunny_. I would rather establish a friendly connection with my `spirit animal` than fully fuse with them.
 ```
 
-## Enjoy!
+## You can do this
 
-Over time, if you develop a bond with your spirit animal, you may get quite good at understanding them, and you two may become quite close. This may help you make decisions in a much more plain, deliberate way. And maybe this will help you not to procrastinate, and even bring much bigger changes too. **I wish you luck**.
+Let's finish on one last massive spoiler on the game Celeste. The main developer of the game, [Madeline Thorson](https://en.wikipedia.org/wiki/Maddy_Thorson), is a transgender woman and the story behind mount Celeste, although of universal appeal, was born out of the journey of her transition.
+
+Over time, if you develop a bond with your spirit animal, you may get quite good at understanding them, and you two may become quite close. This may help you make decisions in a much more plain, deliberate way. And maybe this will help you not to procrastinate, and even bring much bigger changes too.
+
+No matter what your spirit animal is, and whatever is the mountain that you wish to climb, remember: **you can do this**.
 
 [^note]: Remember, spirit animals rarely talk.

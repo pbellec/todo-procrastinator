@@ -16,7 +16,7 @@ kernelspec:
 # How-to
 
 ## Software
-Let's start with a bit of logistics. The to-do list for procrastinators does not rely on a particular software, or website. It can probably be implemented with any solution you are already familiar with. If you have already found a to-do list software you like, I would encourage you to stick with it. I am personally implementing the to-do list with a simple text editor and a format called markdown to keep track of headers, and links, etc. Markdown gets rendered as a web page mostly for aesthetics. Sometimes I will explain how a particular aspect of the to-do list is implemented in my text-based system, but hopefully you can adapt this aspect easily in whatever software you are using.   
+Let's start with a bit of logistics. The to-do list for procrastinators does not rely on a particular software, or website. It can probably be implemented with any solution you are already familiar with. If you have already found a to-do list software you like, I would encourage you to stick with it. I am personally implementing the to-do list with a software called [Obsidian](https://obsidian.md/) and a format called markdown to keep track of headers, and links, etc. Sometimes I will explain how a particular aspect of the to-do list is implemented in my markdown system, but hopefully you can adapt this aspect easily in whatever software you are using.   
 
 ## A list of to-do lists
 The to-do list for procrastinators is not a single list, but rather a list of lists. This is very important, critical even. If you, like me, are using a text editor to manage your to-do list, simply use a folder with each to-do list stored in a separate file, e.g.:
@@ -118,14 +118,32 @@ Second, it is *very important* that you break down tasks into very small subtask
 
 Third, you do not have to plan a given category in details. You can start with a few generic tasks, and add subtasks while you are working on a project. You can also revisit a task that was too big or poorly designed to change it - for example breaking it into subtasks.
 
- ## Feeding the `executive` monster
+## Feeding the `executive` monster
 
- There is no special time for you to add an item to your to-do list. Whenever you are low on tasks, something urgent comes up, and you have a sudden urge to work on a particular project, just visit one of your expansive to-do list, select an item, copy it to the executive `to-do list` and "voilà"! Of course, if your to-do list is full, you will *have* to get something done on the list before adding any new item. Procrastinating with tasks outside of the `executive` to-do list should be seen as off-limits.
+There is no special time for you to add an item to your to-do list. Whenever you are low on tasks, something urgent comes up, and you have a sudden urge to work on a particular project, just visit one of your expansive to-do list, select an item, copy it to the executive `to-do list` and "voilà"! Of course, if your to-do list is full, you will *have* to get something done on the list before adding any new item. Procrastinating with tasks outside of the `executive` to-do list should be seen as off-limits.
 
- ```{admonition} A never-ending to-do cycle
- :class: tip
- You should never expect to empty your executive to-do list. Tasks will keep getting added as soon as there is space. This actually should bring you comfort: you will never fail again to clear up your to-do list - it's never expected to happen - and you will not have to plan your daily schedule in details - just follow your fancy in the `executive` to-do list.
- ```
+```{admonition} A never-ending to-do cycle
+:class: tip
+You should never expect to empty your executive to-do list. Tasks will keep getting added as soon as there is space. This actually should bring you comfort: you will never fail again to clear up your to-do list - it's never expected to happen - and you will not have to plan your daily schedule in details - just follow your fancy in the `executive` to-do list.
+```
+
+## Scheduling
+The question of scheduling is often tied to todo lists. Specifically, it is common practice for many people to block time out of their schedules to work on a specific todo task. Which, for a hardcore procrastinator, sounds more like a dark joke than anything. Committing to do a specific thing at a specific time is essentially guarantying that thing will not get done (possibly ever, due to procrastination trauma).
+
+The very act of planning and inserting tasks in your schedule can be an emotional roller coaster and feel very overwhelming. Chances are: you'll procrastinate planning the schedule, never mind achieving whatever sorry task made it in your schedule simply to be ignored.
+
+So, my personal approach to scheduling is to block a substantial amount of time, let's say 1h30 to 3h to "do things". And then I let the procrastination lead me wherever it wants (picking tasks from my `executive` list, obviously). For most people, 5:30 am - 7 am or 9 pm-11 pm can work great for "procrastination time". If you have the luxury, simply block the entire morning or afternoon to procrastinate, every day.
+
+I wouldn't recommend to try and get things done for a lot longer than that. The sense of emergency at the end of the session when time is running out is really what you're after. Sure it takes time to build that sense of emergency - just not 6 hours hopefully.
+
+If you tend to hyperfocus, your procrastination session may end up 10 hours long. I guess that's fine then, this means you are on a streak of doing things and unstoppable. Your todo list will thank you for it - but you can't really decide when those days come, can you? Structured procrastination can help though.
+
+Finally, when you are not busy procrastinating (in a structured way), you can do other things which you would not procrastinate on and you simply do not need to put on a todo list. Like video games. Or maybe meetings, or classes?
+
+```{admonition} Don't over do it
+:class: tip
+No one changed the world doing focused work for more than three hours a day. That's a well known fact, simply take my word for it. So as long as you manage to get in a good procrastination session, you will be just fine.
+```
 
 ## Trouble shooting
 ```{admonition} I find this system awfully complicated, can you explain it again?
