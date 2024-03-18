@@ -72,8 +72,12 @@ Sometimes to really get something done on your to-do list, you will need to step
 This next one is not really a trick to develop a relationship with your `spirit animal`, but rather an observation and possibly a warning. I have noticed a few people I know who seem to have fused with their `spirit animal`. They have no trouble saying "no" and need to act immediately when they have something to do. They are quite effective, but also sometimes ruffle feathers around them. I don't think it is something you can decide to do, and I am not sure fully fusing with your `spirit animal` is necessarily desirable, unless it is something like a _fluffy bunny_. I would rather establish a friendly connection with my `spirit animal` than fully fuse with them.
 ```
 
-## Enjoy!
+## You can do this
 
-Over time, if you develop a bond with your spirit animal, you may get quite good at understanding them, and you two may become quite close. This may help you make decisions in a much more plain, deliberate way. And maybe this will help you not to procrastinate, and even bring much bigger changes too. **I wish you luck**.
+Over time, if you develop a bond with your spirit animal, you may get quite good at understanding them, and you two may become quite close. This may help you make decisions in a much more plain, deliberate way. And maybe this will help you not to procrastinate, and even bring much bigger changes too.
+
+Actually, let's finish on one last massive spoiler on the game Celeste. The main developer of the game, [Madeline Thorson](https://en.wikipedia.org/wiki/Maddy_Thorson), is a transgender woman and the story behind mount Celeste, although of universal appeal, was born out of the journey of her transition.
+
+No matter what your spirit animal is, and whatever is the mountain that you wish to climb, remember: **you can do this**.
 
 [^note]: Remember, spirit animals rarely talk.
